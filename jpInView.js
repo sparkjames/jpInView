@@ -35,7 +35,7 @@ window.addEventListener('resize', jp_checkInView, { passive: true });
 function jp_checkInView(){
 	try {
 
-		// Check the top/bottom borders of each section compared to the window dimentions. This determines if the section is "in view" or not.
+		// Check the top/bottom borders of each section compared to the window dimensions. This determines if the section is "in view" or not.
 		for( let i = 0; i < sections.length; i++ ){
 
 			let thresholdTop = window.innerHeight * activeScreenPercentage;
